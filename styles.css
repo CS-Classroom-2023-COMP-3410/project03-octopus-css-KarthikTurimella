@@ -1,0 +1,85 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean, readable font */
+    background-color: #f0f8ff; /* Light blue background color */
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+}
+
+/* Header section styling */
+#header {
+    background-color: #0077b6; /* Dark blue background */
+    color: white; /* White text color */
+    text-align: center; /* Center aligns text */
+    padding: 20px; /* Adds spacing inside the header */
+}
+
+#header h1 {
+    margin: 0; /* Removes default margin for the heading */
+}
+
+#header p {
+    margin: 0; /* Removes default margin for the paragraph */
+    font-style: italic; /* Italicizes the text */
+}
+
+/* Main content area styling */
+#main-content {
+    padding: 20px; /* Adds spacing around the content */
+}
+
+/* Headings inside the main content */
+h2, h3, h4, h5, h6 {
+    color: #0077b6; /* Sets the heading color to dark blue */
+}
+
+/* Quiz Section styling */
+#quiz-section {
+    background-color: #caf0f8; /* Light blue background */
+    padding: 20px; /* Adds spacing around the section */
+    margin-top: 20px; /* Adds spacing above the section */
+    border-radius: 10px; /* Rounds the corners of the section */
+    text-align: center; /* Centers text inside the section */
+}
+
+#quiz-section img {
+    border-radius: 10px; /* Rounds the corners of the image */
+    margin-bottom: 10px; /* Adds spacing below the image */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Makes the table span the full width */
+    border-collapse: collapse; /* Removes space between table borders */
+    margin-top: 20px; /* Adds spacing above the table */
+}
+
+th, td {
+    border: 1px solid #90e0ef; /* Adds a light blue border */
+    padding: 10px; /* Adds padding inside table cells */
+    text-align: center; /* Centers text inside the cells */
+}
+
+th {
+    background-color: #0077b6; /* Dark blue background for headers */
+    color: white; /* White text color */
+}
+
+/* Footer styling */
+#footer {
+    background-color: #023e8a; /* Darker blue background */
+    color: white; /* White text color */
+    text-align: center; /* Center aligns text */
+    padding: 10px; /* Adds spacing inside the footer */
+    font-size: 0.9em; /* Slightly smaller text */
+}
+
+/* Styling for links */
+a {
+    color: #0077b6; /* Sets link color to dark blue */
+    text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
